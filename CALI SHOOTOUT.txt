@@ -35,11 +35,11 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local RTab = Window:CreateTab("Return", nil) -- Title, Image
-local Section = RTab:CreateSection("Return To ZeroDays Roblox Script")
-
 local TpTab = Window:CreateTab("Teleports", nil) -- Title, Image
 local Section = TpTab:CreateSection("Teleports")
+
+local RTab = Window:CreateTab("ReturnTab", nil) -- Title, Image
+local Section = RTab:CreateSection("Return To ZerosRobloxExploit")
 
 local AimTab = Window:CreateTab("Aim stuff", nil) -- Title, Image
 local Section = AimTab:CreateSection("AimHacks")
@@ -395,15 +395,17 @@ local Button = PdTab:CreateButton({
 local Button = FTab:CreateButton({
    Name = "Juice ",
    Callback = function()
- game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2082.687744140625, 3.5075325965881348, -575.859619140625)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pskyc4665k-coder/zzZ/refs/heads/main/frostyxnns%20roblox%20eploit.lua?token=GHSAT0AAAAAADO7ZBG4LRU4HPJNP6437HVY2JCDRTA"))()
    end,
 })
 
 local Button = RTab:CreateButton({
-   Name = "Return",
+   Name = "ReturnButton",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/pskyc4665k-coder/zzZ/refs/heads/main/frostyxnns%20roblox%20eploit.lua?token=GHSAT0AAAAAADO7ZBG4SMPDHMVZVOH2HSHK2JCG3FQ"))()
+loadstring(game:HttpGet("https://github.com/pskyc4665k-coder/robloxeadxafdf"))()
    end,
 })
+
+
 
 
